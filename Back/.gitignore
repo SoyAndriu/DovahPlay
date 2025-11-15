@@ -1,0 +1,27 @@
+# Ignorar entornos virtuales de Python
+venv/
+.venv/
+env/
+Scripts/
+Include/
+Lib/
+pyvenv.cfg
+
+# Caches y compilados de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de base de datos locales y logs
+*.sqlite3
+*.db
+*.log
+
+# Variables de entorno
+.env
+
+# Archivos estáticos/subidos generados en runtime (ajusta según tu proyecto)
+static/
+media/
+
+# Nota: NO ignoramos el código (backend/, apps, manage.py, migrations, etc.)
